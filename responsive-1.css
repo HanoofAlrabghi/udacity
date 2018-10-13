@@ -1,0 +1,18 @@
+.container {
+  width: 820px;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+}
+
+.main-img-style{
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+aside {
+  display: flex;
+  margin-bottom: 20px; 
+}
+

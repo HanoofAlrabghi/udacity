@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo-size {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.color-img-style {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+
+.code-img-style {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+hr {
+  width: 800px;
+}
+
+a {
+  display: inline;
+  margin: 100px;
+  color: #778899;
+}
+
+h1, h3 {
+  font-family:"Verdana, Geneva, Tahoma, sans-serif";
+}
+
+.figcap-style {
+  margin-left:20px;
+}
+
+.figcap-code {
+  margin-left: 100px;
+}
+
+.link-marg {
+  margin-left: 20px;
+}
+.code-style {
+  margin: 25px;
+  width: 200px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
