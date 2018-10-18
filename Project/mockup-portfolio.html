@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/mockup-styles.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 600px)"
+     href="CSS/responsive-1.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 991px)"
+     href="CSS/responsive-2.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1000px)"
+     href="CSS/responsive-3.css">
+    <link rel="stylesheet" media="screen and (min-width: 1001px)"
+     href="CSS/responsive-4.css">
+    <title>Mockup Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+    <header>
+        <div class="row">
+        <div class="col-md-4">
+        <img src="img/logo.png" alt="Logo picture" class="logo-size img-responsive">
+        </div>
+
+        <div class="col-md-8">
+        <h1>HANOOF ALRABGHI</h1>
+        <h3>FRONT-END NINJA</h3>
+        </div>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <div class="row">
+        <div class="col-md-2">
+        <aside>
+            <figure>
+            <img src="img/color1.png" alt="Blue Color" class="color-img img-responsive">
+            <figcaption class="figcap-color"><b>#1E90FF</b></figcaption>
+            </figure>
+
+            <figure>
+            <img src="img/color2.png" alt="Grey Color" class="color-img img-responsive" >
+            <figcaption class="figcap-color"><b>#778899</b></figcaption>
+            </figure>
+
+            <figure>
+            <img src="img/color3.png" alt="Light Blue Color" class="color-img img-responsive">
+            <figcaption class="figcap-color"><b>#66cdaa</b></figcaption>
+            </figure>
+        </aside>
+        </div>
+          
+
+        <div class="col-md-10">
+        <!-- I use diff. images size for diff. screen sizes if the browser old 
+        it will dispaly the last img tags -->
+        <picture>
+            <source media="(min-width: 280px) and (max-width: 500px)"
+            srcset="img/main-img-350px.png" class="img-responsive">
+            <source media="(min-width: 501px) and (max-width: 700px)" 
+            srcset="img/main-img-450px.png" class="img-responsive">
+            <source media="(min-width: 701px)" srcset="img/main-img-600px.png" class="img-responsive">
+            <img src="img/main-img-600px.png" alt="Main Image"  class="main-img-resizing img-responsive"> 
+        </picture>
+        </div>
+        </div>
+
+        <div class="row flex-container">
+        <div class="col-md-4 code-col" >
+        <figure>
+            <img src="img/1-300px.png"  alt="Python Image" class="img-responsive">
+            <figcaption class="figcap-code">Python</figcaption>
+        </figure>
+        <a href="https://github.com/" class="link-marg">https://github.com/project/pyhton  </a>
+        <p class="resizing">Python is an interpreted high-level programming language for the
+        general-purpose of programming. See how we build this project by python in the above link. </p>
+        </div>
+
+        <div class="col-md-4 code-col">
+        <figure>
+            <img src="img/2-300px.png"  alt="CSS Image" class="img-responsive">
+            <figcaption class="figcap-code">CSS</figcaption>
+        </figure>
+        <a href="https://github.com/" class="link-marg">https://github.com/project/CSS </a>
+        <p class="resizing">CSS is Cascading Style Sheet it describes how the HTML elements look
+        in the screen. See how we build this project by CSS in the above link. </p>
+        </div>
+
+        <div class="col-md-4 code-col">
+        <figure>
+            <img src="img/3-300px.png"  alt="HTML Image" class="img-responsive">
+            <figcaption class="figcap-code">HTML</figcaption>
+        </figure>
+        <a href="https://github.com/" class="link-marg">https://github.com/project/html </a>
+        <p class="resizing">HTML is the Hypertext Markup Language it describes the structure
+        of web page using tags. See how we build this project by HTML in the above link. </p>
+        </div>
+
+        <div class="col-md-4 code-col">
+        <figure>
+            <img src="img/4-300px.png" alt="SQL Image" class="img-responsive">
+            <figcaption class="figcap-code">SQL</figcaption>
+        </figure>
+        <a href="https://github.com/" class="link-marg">https://github.com/project/SQL </a>
+        <p class="resizing">SQL is a domain-specific language used in programming for query and
+        managing database system. See how we build this project by SQL in the above link.</p>
+        </div>
+        <hr>
+        </div>   
+    </main>
+
+    <footer>
+        <div class="row">
+        <nav>
+            <div class="col-md-4">
+            <a href="#">About</a>
+            </div>
+
+            <div class="col-md-4">
+            <a href="#">Contact</a>
+            </div>
+
+            <div class="col-md-4">
+            <a href="#">Privacy</a>
+            </div>
+        </nav> 
+        </div>
+    </footer>
+    </div> 
+</body>
+</html>
