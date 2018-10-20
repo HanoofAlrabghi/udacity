@@ -1,0 +1,20 @@
+.container {
+  width: 820px;
+  background-color: #f8f8ff;
+}
+
+.main-img {
+ margin-top: 18px;
+  
+}
+
+.main-img-resizing {
+  width: 600px;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

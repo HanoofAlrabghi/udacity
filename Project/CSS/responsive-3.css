@@ -1,0 +1,25 @@
+.container {
+  width: 820px;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+}
+
+.align-items {
+  align-self: center;
+}
+
+.main-img {
+  margin-top: 40px;
+}
+
+.main-img-resizing {
+  width: 500px;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+

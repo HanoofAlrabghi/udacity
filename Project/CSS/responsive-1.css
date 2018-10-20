@@ -1,0 +1,52 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+}
+
+.align-items {
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  flex-flow: row;
+  align-self: center;
+  
+}
+
+.resize {
+  max-width: 100px;
+}
+
+.link-margin {
+  margin: 50px;
+}
+
+
+aside {
+  display: flex;
+  margin-bottom: 20px; 
+}
+
+.main-img-resizing {
+  width: 350px;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.resizing {
+  width: 300px;
+}
+
+.header-flex {
+  display: flex;
+}
